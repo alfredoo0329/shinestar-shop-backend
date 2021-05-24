@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Killua Pin",
+        "stars": 4,
+        "price": 40.00,
+        "discount": 0.0,
+        "category": "Pines",
+        "colors": [],
+        "sizes": [],
+        "images": ["killuapin.PNG"],
+        "description": "-Pin clásico circular\n-Ilustración de Killua de Hunter X Hunter\n-Incluye un sticker",
+        "tags": ["fanmade", "fanmadegoods", "fanmadegoodies", "animefanmade", "anime", "hunterxhunter", "killua", "killuazoldyck"],
+        "stock": 4
+    },
+    {
+        "id": 2,
+        "title": "More & More",
+        "stars": 5,
+        "price": 60.00,
+        "discount": 0.0,
+        "category": "Fotos",
+        "colors": [],
+        "sizes": [],
+        "images": ["moreandmore.PNG"],
+        "description": "-Polaroid set✨\n-10 polaroids mini del concepto de “More and more” de Twice\n-Acabado brilloso\n-Incluye 9 polaroids individuales y 1 grupal",
+        "tags": ["kpop", "twice", "twicefanmade", "twicemexico", "kpopfanmade", "kpopfanmadegoods", "fanmadegoods", "kpoppolaroid"],
+        "stock": 0
+    },
+    {
+        "id": 3,
+        "title": "Inception Sweathshirt",
+        "stars": 3,
+        "price": 320.00,
+        "discount": 0.10,
+        "category": "Ropa",
+        "colors": ["#131432", "#ffffff"],
+        "sizes": ["S", "M", "L", "XL"],
+        "images": ["inceptionsweathshirt.PNG", "inceptonsweathshirt2.PNG"],
+        "description": "Suéter inspirado en el title track “Inception” del último álbum “ZERO: FEVER Part.1” del grupo Ateez🤍",
+        "tags": ["ateez", "ateezmexico", "fanmadegoods", "fanmademerch", "kpop", "kpopfanmade", "kpopfanmadegoods", "kpopgoods"],
+        "stock": 6
+    },
+    {
+        "id": 4,
+        "title": "Canvas Frame",
+        "stars": 4,
+        "price": 100.00,
+        "discount": 0.365,
+        "category": "Ilustraciones",
+        "colors": [],
+        "sizes": [],
+        "images": ["canvasframe.PNG"],
+        "description": "- Marco con forma de canvas de madera (lleva protector de vidrio) 🖼\n- Se personaliza con la imagen que gustes, la fotografía tiene un acabado brilloso y medidas de 12x17cm 📏",
+        "tags": ["kpop", "kpopfanmade", "kpopfanmadegoods", "fanmadegoods", "fanmadegoodies", "fanmade", "armymexico", "moamexico", "spritedaway"],
+        "stock": 5
+    }
+]
