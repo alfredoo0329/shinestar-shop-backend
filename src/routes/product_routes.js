@@ -19,6 +19,16 @@ router.get(api_url, (_, response) => {
     response.status(200).json(products);
 });
 
+//get promotion products
+router.get(api_url + '/promotions', (request, response) => {
+    let promotions = []
+    products.forEach(product => {
+        if (product.discount > 0.0) 
+            promotions.push(product);
+    });
+    response.status(200).json(promotions);
+});
+
 //get product by id
 router.get(api_url + '/:id', (request, response) => {
     const {id} = request.params;
@@ -29,16 +39,6 @@ router.get(api_url + '/:id', (request, response) => {
         }
     });
     response.status(500).send('product with id #' + id + ' not found');
-});
-
-//get promotion products
-router.get(api_url + '/promotions', (request, response) => {
-    let promotions = []
-    products.forEach(product => {
-        if (product.discount != 0) 
-            promotions.push(product);
-    });
-    response.status(200).json(promotions);
 });
 
 //get product image  
