@@ -15,11 +15,13 @@ function isTitleRepeated(new_title) {
 }
 
 //get all products
+// API TIPO GET CON DIRECCION api/products SIN PARAMETROS QUE REGRESA UN JSON CON TODOS LOS PRODUCTOS
 router.get(api_url, (_, response) => {
     response.status(200).json(products);
 });
 
 //get promotion products
+// API TIPO GET CON DIRECCION api/products/promotions SIN PARAMETROS QUE REGRESA UN JSON CON TODOS LOS PRODUCTOS QUE CUENTAN CON DESCUENTO
 router.get(api_url + '/promotions', (request, response) => {
     let promotions = []
     products.forEach(product => {
@@ -30,6 +32,7 @@ router.get(api_url + '/promotions', (request, response) => {
 });
 
 //get product by id
+// API TIPO GET CON DIRECCION api/products CON UN ID DE PRODUCTO COMO PARAMETRO QUE REGRESA UN JSON CON UN UNICO PRODUCTO QUE HAGA MATCH CON EL ID
 router.get(api_url + '/:id', (request, response) => {
     const {id} = request.params;
     products.forEach(product => {
@@ -42,6 +45,7 @@ router.get(api_url + '/:id', (request, response) => {
 });
 
 //get product image  
+// ESTA NO SE USA NO LE HAGAN CASO
 router.get(api_url + '/images/:id', (request, response) => {
     const {id} = request.params;
     products.forEach(product => {

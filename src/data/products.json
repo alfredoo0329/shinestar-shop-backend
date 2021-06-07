@@ -64,7 +64,7 @@
         "category": "Pines",
         "colors": [],
         "sizes": [],
-        "images": ["BlueHourPin.png","BlueHourPin2.JPG"],
+        "images": ["BlueHour.JPG","BlueHourPin2.JPG"],
         "description": "-Pin clásico circular\n-Diseño inspirado en la canción Blue Hour del grupo TXT\n-Incluye una fanmade photocard de un integrante del grupo al azar",
         "tags": ["fanmade", "fanmadegoods", "fanmadegoodies", "kpopfanmade", "kpop", "txt", "tomorrowbytogether", "MOA"],
         "stock": 3
@@ -212,7 +212,7 @@
         "stock": 0
     },
     {
-        "id": 15,
+        "id": 16,
         "title": "LOVE STAY",
         "stars": 5,
         "price": 80.00,
@@ -226,11 +226,11 @@
         "stock": 0
     },
     {
-        "id": 16,
+        "id": 17,
         "title": "Inception Sweathshirt",
         "stars": 3,
         "price": 320.00,
-        "discount": 10.0,
+        "discount": 0.10,
         "category": "Ropa",
         "colors": ["#131432", "#ffffff"],
         "sizes": ["S", "M", "L", "XL"],
@@ -241,7 +241,7 @@
     },
     
     {
-        "id": 17,
+        "id": 18,
         "title": "Fireworks T-shirt",
         "stars": 3,
         "price": 260.00,
@@ -255,13 +255,13 @@
         "stock": 6
     },
     {
-        "id": 18,
+        "id": 19,
         "title": "Lullaby T-shirt",
         "stars": 3,
         "price": 260.00,
         "discount": 0.0,
         "category": "Ropa",
-        "colors": [],
+        "colors": ["#000000", "#ffffff"],
         "sizes": ["S", "M", "L", "XL"],
         "images": ["LullabyTshirt.png", "LullabyTshirt2.png"],
         "description": "Camiseta con diseño inspirado en la canción “Lullaby” del grupo GOT7🤍 ",
@@ -269,13 +269,13 @@
         "stock": 6
     },
     {
-        "id": 19,
-        "title": "ugh! T-shirt",
+        "id": 20,
+        "title": "UGH! T-shirt",
         "stars": 5,
         "price": 260.00,
         "discount": 0.0,
         "category": "Ropa",
-        "colors": [],
+        "colors": ["#000000", "#ffffff"],
         "sizes": ["S", "M", "L", "XL"],
         "images": ["UghTshirtMockup.jpg", "UghTshirt2.png"],
         "description": "Camiseta con diseño inspirado en la canción “UGH!” del grupo BTS 🤍 ",
@@ -283,7 +283,7 @@
         "stock": 6
     },
     {
-        "id": 20,
+        "id": 21,
         "title": "Canvas Frame",
         "stars": 4,
         "price": 100.00,
@@ -297,8 +297,8 @@
         "stock": 4
     },
      {
-        "id": 21,
-        "title": "Blue Hour print",
+        "id": 22,
+        "title": "Blue Hour Print",
         "stars": 4,
         "price": 25.00,
         "discount": 0.0,
@@ -311,7 +311,7 @@
         "stock": 2
     },
     {
-        "id": 21,
+        "id": 23,
         "title": "Pretty Savage print",
         "stars": 4,
         "price": 25.00,
@@ -325,7 +325,7 @@
         "stock": 2
     },
     {
-        "id": 22,
+        "id": 24,
         "title": "Mob print",
         "stars": 4,
         "price": 25.00,
@@ -339,7 +339,7 @@
         "stock": 2
     },
     {
-        "id": 23,
+        "id": 25,
         "title": "Mafuyu print",
         "stars": 4,
         "price": 25.00,
@@ -353,7 +353,7 @@
         "stock": 2
     },
     {
-        "id": 24,
+        "id": 26,
         "title": "Alluka print",
         "stars": 4,
         "price": 25.00,
@@ -367,7 +367,7 @@
         "stock": 2
     },
     {
-        "id": 25,
+        "id": 27,
         "title": "Uraraka print",
         "stars": 4,
         "price": 25.00,
